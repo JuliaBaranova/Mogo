@@ -1,0 +1,22 @@
+@import url(./node_modules/normalize.css/normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@700&family=Raleway:wght@400;500;600;700;900&display=swap');
+@import url(./blocks/header/header.css);
+@import url(./blocks/intro/intro.css);
+@import url(./blocks/page/page.css);
+@import url(./blocks/link/link.css);
+@import url(./blocks/button/button.css);
+@import url(./blocks/style/style.css);
+@import url(./blocks/work/work.css);
+@import url(./blocks/device/device.css);
+@import url(./blocks/service/service.css);
+@import url(./blocks/team/team.css);
+@import url(./blocks/creative/creative.css);
+@import url(./blocks/map/map.css);
+@import url(./blocks/footer/footer.css);
+
+
+body {
+    font-family: 'Kaushan Script', cursive; 
+    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Raleway', sans-serif;
+}

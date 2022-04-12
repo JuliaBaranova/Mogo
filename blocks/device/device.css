@@ -1,0 +1,97 @@
+.device {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(90deg, rgba(255,255,255,0.8) 25%, rgba(255,255,255,0.8) 25%), url(device.png) no-repeat;
+    background-size: cover;
+    margin-bottom: 41.66px;
+    max-width: 100%;
+    background-position: center;
+}
+.device__content {
+    display: flex;
+    flex-direction: column;
+    margin: 42px 170px 57px 170px;
+}
+.device__border {
+    margin-bottom: 59px;
+}
+.device__pic {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.device__tablet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(style.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.device__mobile {
+    position: absolute;
+    display: flex;
+    background-repeat: no-repeat;
+    left: 770px;
+    top: 212px;
+}
+@media (max-width: 1024px) {
+    .device {
+        margin-bottom: 28px;
+    }
+    .device__content {
+        margin: 28px 115px 38px 115px;
+    }
+    .device__border {
+        margin-bottom: 40px;
+    }
+    .device__pic {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        max-width: 100%;
+        justify-content: center;
+    }
+    .device__mobile {
+        left: auto;
+        top: auto;
+        bottom: -90px;
+        right: 10px;
+    }
+}
+@media (max-width: 450px) {
+    .device {
+        margin-bottom: 29px;
+    }
+    .device__content {
+        margin: 43px 16px 25px 16px;
+    }
+    .device__border {
+        margin-bottom: 36px;
+    }
+    .device__pic {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        max-width: 100%;
+        justify-content: center;
+    }
+    .device__mobile {
+        left: auto;
+        top: auto;
+        bottom: -50px;
+        right: 45px;
+    }
+    .device__image2 {
+        max-width: 85px;
+        max-height: 175px;
+    }
+    .device__tablet {
+        max-width: 275px;
+        background-size: contain;
+      }
+    .device__image1 {
+        max-width: 500px;
+    }
+    
+}

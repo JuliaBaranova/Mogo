@@ -1,0 +1,49 @@
+.link {
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    width: 114px;
+    }
+.link_navigation {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    justify-content: center;
+}
+.link_navigation_1 {
+    color: #F4BF87;
+    border-bottom: 1px solid #F4BF87;
+    text-transform: uppercase;
+    height: 30px;
+    justify-content: center;
+}
+.link__marker {
+    display: flex;
+    width: 55px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+}
+@media (max-width: 1024px)  {
+    .link{
+        width: 94px;
+        height: 40px;
+    }
+    .link_navigation {
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .link_navigation_1 {
+        height: 22pxpx;
+    }
+    .link__marker {
+        width: 40px;
+    }
+}

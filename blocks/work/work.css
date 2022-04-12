@@ -1,0 +1,108 @@
+.work {
+    display:flex;
+    flex-direction: column;
+    margin: 42px 170px 91px 170px;
+}
+.work__border {
+    margin-bottom: 80px;
+}
+.work__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 140px;
+}
+.work__service {
+    display: flex;
+    flex-direction: row;
+    height: 139px;
+    gap: 30px;
+}
+.work__icon {
+    display: flex;
+    float: left;
+    width: 100px;
+}
+.work__position {
+    display: flex;
+    flex-direction: column;
+}
+.work__content {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #2D3033;
+    margin-top: 8px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+}
+.work__text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #2D3033;
+    height: 80px;
+}
+@media (max-width: 1024px) {
+    .work {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 29px 16px 58px 16px;
+    }
+    .work__list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 25px;
+        grid-row-gap: 65px;
+    }
+    .work__content {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .work__text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+@media (max-width: 450px) {
+    .work {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 29px 16px 58px 16px;
+    }
+    .work__list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-row-gap: 36px;
+    }
+    .work__content {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        margin-top: 6px;
+        height: 43px;   
+    }
+    .work__text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        height: 45px;
+        }
+        }

@@ -1,0 +1,96 @@
+.style__topic {
+    font-family: 'Kaushan Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    color: #2D3033;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+.style__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #2D3033;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 81px;
+}
+.style__border {
+    border: 4px solid #F38281;
+    margin-bottom: 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+}
+.style__text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 58px;
+    height: 118px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+@media (max-width: 1024px) {
+    .style__topic {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 35px;
+        height: 67px;
+    }
+    .style__title {
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;
+        height: 68px;
+        margin-bottom: 20px;
+    }
+    .style__border {
+        width: 148px;
+        margin-bottom: 74px;
+    }
+    .style__text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+@media (max-width: 450px) {
+    .style__topic {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 35px;
+        height: 68px;
+    }
+    .style__title {
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;
+        height: 69px;
+        margin-bottom: 20px;
+    }
+    .style__border {
+        width: 144px;
+        margin-bottom: 66px;
+    }
+    .style__text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
