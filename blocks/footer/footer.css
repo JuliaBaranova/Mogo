@@ -8,6 +8,7 @@
     flex-direction: row;  
     gap: 30px;
     margin: 42px 170px;
+    justify-content: center;
 }
 .footer__logo {
     display: flex;
