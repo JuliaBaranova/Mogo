@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- лучше использовать абсолютные пути: href="/index.css" -->
     <link rel="stylesheet" href="./index.css" />
     <title>Mogo</title>
 </head>
@@ -270,7 +271,8 @@
                                 <source srcset="./blocks/device/phone.png?as=avif&width=200" type="image/avif" />
                                 <source srcset="./blocks/device/phone.png?as=webp&width=200" type="image/webp" />
                                 <source srcset="./blocks/device/phone.png?as=jpeg&width=200" type="image/jpeg" />
-                                <img class="device__image2" src="./blocks/device/phone.pngwidth=200" alt="Mogo" />  
+                                <!-- ошибка в src картинки, из-за этого проект не запускается -->
+                                <img class="device__image2" src="./blocks/device/phone.png?width=200" alt="Mogo" />  
                             </picture>
                         </div>
                     </div>
